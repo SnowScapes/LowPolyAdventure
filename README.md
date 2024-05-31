@@ -4,11 +4,11 @@
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGtUQnh2auP6-5piyLjjhl-X2ScndYQy1bBnparJO&s"></img>
 
 
-## 4주차 개인 프로젝트
+## 6주차 개인 프로젝트
 </div>
   
 ### 🌒 프로젝트 정보
-`개요` : TopDown 2D Game    
+`개요` : 3D Game    
 
 `기술` : Unity, C#    
 
@@ -116,6 +116,19 @@ public class CameraController : MonoBehaviour
 
 ##### 3. 아이템 구현   
 <details><summary>사진,코드 펼치기</summary>
+
+```csharp
+// 아이템 정보 저장용 SO
+[CreateAssetMenu (menuName = "ItemInfo", fileName = "Default", order = 0)]
+public class ItemSO : ScriptableObject
+{
+    public Define.ItemType ItemType;
+    public string ItemName;
+    public int Value;
+    public string Description;
+}
+
+```
 
 ```csharp
 // 부모 클래스 형식
