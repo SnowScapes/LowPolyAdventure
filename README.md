@@ -19,6 +19,7 @@
 
 ##### 1. 캐릭터 이동 및 점프   
 <details><summary>사진,코드 펼치기</summary>
+![test1](https://github.com/SnowScapes/LowPolyAdventure/assets/39547945/7c066e47-f0da-483d-ae3e-a233abde9bf8)    
 
 ```csharp
     private void Awake()
@@ -82,6 +83,7 @@
 
 ##### 2. 3인칭 카메라   
 <details><summary>사진,코드 펼치기</summary>
+![test2](https://github.com/SnowScapes/LowPolyAdventure/assets/39547945/9ce3207b-f623-4656-a850-a315cf08ac67)    
 
 ```csharp
 public class CameraController : MonoBehaviour
@@ -175,6 +177,7 @@ public class HungerItem : Item, IUseable
 
 ##### 4. 플레이어 상태 UI   
 <details><summary>사진,코드 펼치기</summary>
+![image](https://github.com/SnowScapes/LowPolyAdventure/assets/39547945/3a064079-c305-4bf5-ba8f-66c8fef63bde)    
 
 ```csharp
 // 플레이어 오브젝트에 붙일 상태 관리 코드
